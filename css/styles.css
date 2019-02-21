@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+/* NAV */
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    color: #333;
+    background-color: #333;
+}
+
+.nav li a:hover {
+  background-color: transparent;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: rgba(17, 17, 17, .3)
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+  color:#2733E5;
+  background-color: rgba(17, 17, 17, .2)
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fcfcfc;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+nav.navbar {
+  position: absolute;
+  top: 100;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.navbar-brand > img {
+  margin-top: -7px;
+  height: 80px;
+}
+
+/* Carousel */
+
+.wrap {
+  min-height: 100vh;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
+.carousel-caption {
+  z-index: 10;
+  padding-bottom: 20px;
+}
+
+.carousel-inner .item {
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+}
+
+.main_img1 {
+  background-image: url('../img/logo.png');
+}
+
+.main_img2 {
+  background-image: url('../img/studio.jpg');
+}
+
+.main_img3 {
+  background-image: url('../img/CDJ.jpg');
+}
+
+.main_logo {
+  width: 100%;
+}
+
+.btn-primary {
+  color: purple;
+  background-color: #2733E5;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  background-color: #2733E5;
+  border-color: transparent;
+}
+
+.carousel-caption p {
+  color: #f7f7f7;
+  font-size: 16px;
+}
+
+/* OUR STORY */
+
+#our_story h1{
+  font-family: 'Lobster', cursive;
+  color: #2733E5;
+  font-size: 6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+  margin-top: 0;
+
+}
+
+#our_story h3 {
+  font-family: 'Lobster', cursive;
+  color: #2733E5;
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+  margin-top: 0;
+
+}
+
+#our_story h2 {
+  color: red;
+}
+
+#our_story p {
+  font family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #2733E5;
+
+}
+
+.story_year {
+  font-family: 'Playfair Display', serif;
+  font-size: 200px;
+  font-weight: 700;
+  z-index: -1;
+  position: absolute;
+  color: rgba(149, 147, 147, 0.2);
+}
+
+/* REVIEW */
+
+#review {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#review .center {
+  margin: 0 auto;
+  float: none;
+  background-color:rgba(20, 20, 20, .6);
+  padding: 10px;
+  margin-top: 145px;
+  border-radius: 5px;
+}
+
+#review h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 5em;
+  color: #067CFF;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#review p {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#review h3 {
+  color: #067CFF;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+#menu .container{
+    background-color: #e0e0e0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #2733E5;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333;
+}
+
+
+.container-fluid-contact {
+  background-color: #1d4fba;/*color royal blue*/
+  height: 150px;
+}
+.container-fluid-contact a {
+  font-style: italic;
+}
+.logo {
+  max-height: 100px;
+  margin-top: 10px;
+}
+.contact-info {
+  color: #fff;
+  margin-top: 10px;
+}
+.social {
+  margin-top: 30px;
+}
+.fine-print {
+  font-family: 'La Belle Aurore', cursive;
+  color:  #fff;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  bottom resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer {
+  display: block;
+  color: white;
+  position: center;
+  text-align: center;
+}
+
+.copyright, .social, .container2 {
+    width: 50%;
+    height:70px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.fab {
+    font-size:32px;
+}
+
+.fa-instagram {
+    color:#66D9EE;
+}
+
+.fa-soundcloud {
+    color:orange;
+}
